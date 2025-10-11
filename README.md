@@ -6,6 +6,6 @@ Análisis descriptivo de los homicidios en Colombia entre los años 2003 y 2025 
 **DL_Municipios.csv** : Códigos de la División Político Administrativa del país geolocalizado por municipios. Fuente: Datos Abiertos
 
 **DL_Homicidios.csv** :
- - Algo 1
- - Algo 2
- - Algo 3
+ - Muertes que fueron causadas por otra persona por cualquier tipo de elemento. (Se mide en víctimas). Fuente: Datos Abiertos.
+ - Incluye: Civiles, miembros de la Fuerza Pública y personas pertenecientes a grupos criminales.
+ - Excluye: Muertes ocurridas en accidentes de tránsito vehicular.
