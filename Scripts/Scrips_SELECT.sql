@@ -31,6 +31,10 @@ SELECT GeoMunicipio , LEN(GeoMunicipio)
 FROM DataLake.dbo.DL_Municipios
 ORDER BY LEN(GeoMunicipio ) DESC;
 
+SELECT NOM_DPTO, LEN(NOM_DPTO), GeoDepartamento , LEN(GeoDepartamento)
+FROM DataLake.dbo.Departamentos
+ORDER BY LEN(GeoDepartamento ) DESC;
+
 SELECT NOM_DPTO, LEN(NOM_DPTO), NOM_MPIO, LEN(NOM_MPIO), TIPO, LEN(TIPO), GeoMunicipio , LEN(GeoMunicipio)
 FROM DataLake.dbo.DL_Municipios
 ORDER BY LEN(GeoMunicipio ) DESC;
